@@ -181,6 +181,17 @@
 </footer>
 
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@streamlit/cdn"></script>
+<script>
+  const streamlitPlaceholder = document.getElementById("streamlit_placeholder");
+  const streamlitEmbed = document.createElement("div");
+  streamlitEmbed.setAttribute("data-bokeh-root-url", "http://localhost:8501/");
+  streamlitEmbed.setAttribute("data-bokeh-doc-id", "");
+  streamlitEmbed.setAttribute("data-bokeh-app-path", "/");
+  streamlitPlaceholder.appendChild(streamlitEmbed);
+  window.streamlitServerUrl = 'http://localhost:8501';
+  new window.streamlitMain(Object.fromEntries(new URLSearchParams(window.location.search)));
+</script>
 <script>
   // Get the cursor element
   var cursor = document.querySelector('.cursor');
