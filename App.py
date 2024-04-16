@@ -35,7 +35,7 @@ def main():
 
     st.title("Carbon Footprint Calculator")
 
-    st.write("Welcome to the Carbon Footprint Calculator!")
+    st.write("Welcome to the Planet-Pulse ـــــــــــــﮩ٨ـ❤️ﮩ٨ـﮩﮩ٨ـ!")
 
     # Add SVG image
     st.image("assets/Untitled design (1).svg", use_column_width=True)
