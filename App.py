@@ -37,7 +37,8 @@ def main():
     st.write("Welcome to the Planet-Pulse ـــــــــــــﮩ٨ـ❤️ﮩ٨ـﮩﮩ٨ـ!")
 
     # Add SVG image
-    st.image("", use_column_width=True)
+    
+    st.image("assets/Untitled design (1).svg", use_column_width=True)
 
     # User inputs
     transport_method = st.selectbox("Select Transport Method", ["Car", "Bus", "Lorry"])
